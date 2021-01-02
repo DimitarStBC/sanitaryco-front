@@ -1,9 +1,8 @@
 <template>
   <div id="app">
     <navigation-bar />
-    <transition name="fade" mode="out-in">
-      <router-view> </router-view>
-    </transition>
+
+    <router-view> </router-view>
   </div>
 </template>
 
@@ -31,7 +30,7 @@ export default {
   width: 40%;
   height: 100vh;
 }
-.fade-enter-active,
+/* .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.2s ease-in-out;
 }
@@ -40,5 +39,5 @@ export default {
 }
 .fade-leave-to {
   opacity: 1;
-}
+} */
 </style>
