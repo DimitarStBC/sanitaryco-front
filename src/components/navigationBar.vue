@@ -82,7 +82,7 @@
 }
 .menu ul li a {
   /* color: rgb(147, 37, 211); */
-  color: white;
+  color: rgb(41, 41, 41);
   font-weight: 500;
 }
 </style>
