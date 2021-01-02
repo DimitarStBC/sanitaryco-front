@@ -66,6 +66,8 @@
 #bar {
   padding: 10px 0;
   position: fixed;
+  z-index: 2;
+  background-color: white;
 }
 /* .logo {
   width: 250px;

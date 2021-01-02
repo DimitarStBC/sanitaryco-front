@@ -29,7 +29,9 @@ export default {
   background: linear-gradient(to right, #9807bd, #b125b1);
   width: 40%;
   height: 100vh;
+  z-index: 5;
 }
+
 /* .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.2s ease-in-out;

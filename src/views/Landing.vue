@@ -1,5 +1,5 @@
 <template>
-  <div id="landing">
+  <div class="d-flex">
     <div class="left d-flex flex-column justify-content-center">
       <h1>Свежест 42</h1>
       <h2>За да се чувствате у дома или в офиса с влизането в общите части</h2>
