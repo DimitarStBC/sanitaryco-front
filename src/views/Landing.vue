@@ -15,9 +15,16 @@
       >
       <SocialMedia />
     </div>
-    <div class="right position-relative">
-      <video playsinline="playsinline" autoplay loop id="videoEdit">
-        <source src="../assets/svejest42.mp4" type="video/mp4" />
+    <div class="right position-relative player-container">
+      <video
+        plays-inline="playsinline"
+        muted
+        autoplay="autoplay"
+        loop
+        id="videoEdit"
+      >
+        <!-- <source src="../assets/svejest.mp4" type="video/mp4" /> -->
+        <source src="../assets/svejest.webm" type="video/webm" />
       </video>
     </div>
   </div>
@@ -41,7 +48,7 @@ export default {
   position: fixed;
   min-width: 100%;
   min-height: 100%;
-  bottom: 0;
+  bottom: -100px;
   right: -450px;
   z-index: -1;
 }
